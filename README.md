@@ -1,4 +1,5 @@
-- 👋 Hi, I’m @logical-luke
-- 👀 I’m interested in backend development
-- 🌱 I’m currently learning NodeJS
-- 📫 You can send me an email on luke@logical-luke.com
+# Hi 👋
+
+![background](https://user-images.githubusercontent.com/12988946/111710837-c50f3e00-884a-11eb-9332-0292124e7792.png)
+
+### 📫 Feel free to contact me luke@logical-luke.com
