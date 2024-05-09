@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hello, I'm Luke Ziaja</h1>
 
 <p align="center">
-I'm a full-stack developer with deep expertise in backend systems and a passion for front-end development. 
+I'm a full-stack developer with deep expertise in back-end systems and a passion for front-end development. 
 </p>
 <p align="center">
 My work involves building robust applications with NodeJs, PHP, and Python. 
