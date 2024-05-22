@@ -7,7 +7,7 @@ I'm a full-stack developer with deep expertise in back-end systems and a passion
 My work involves building robust applications with NodeJs, PHP, and Python. 
 </p>
 <p align="center">
-I operate [Make IT Logical](https://makeitlogical.io), where I focus on delivering intuitive applications that make a real difference.
+I operate [Make IT Logical](https://makeitlogical.io), where I focus on delivering intuitive applications that solves problems.
 </p>
 
 <p align="center">
