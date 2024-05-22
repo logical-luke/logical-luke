@@ -42,14 +42,16 @@ function sharePhilosophy() {
 #### Programming Languages
 <p> 
   <img src="https://img.shields.io/badge/code-PHP-blue"></img>
-  <img src="https://img.shields.io/badge/code-Python-blue"></img>
   <img src="https://img.shields.io/badge/code-JavaScript-blue"></img>
+  <img src="https://img.shields.io/badge/code-Python-blue"></img>
+  <img src="https://img.shields.io/badge/code-Java-blue"></img>
 </p>
 
 #### Frameworks & Libraries
 <p>
-  <img src="https://img.shields.io/badge/framework-Vue.js-blue"></img>
   <img src="https://img.shields.io/badge/framework-Symfony-blue"></img>
+  <img src="https://img.shields.io/badge/framework-Vue.js-blue"></img>
+  <img src="https://img.shields.io/badge/framework-Express.js-blue"></img>
   <img src="https://img.shields.io/badge/style-TailwindCSS-blue"></img>
 </p>
 
@@ -64,10 +66,16 @@ function sharePhilosophy() {
 #### DevOps & Development Tools
 <p>
   <img src="https://img.shields.io/badge/tool-Docker-blue"></img>
-  <img src="https://img.shields.io/badge/tool-AWS-blue"></img>
+  <img src="https://img.shields.io/badge/cloud-AWS-blue"></img>
+  <img src="https://img.shields.io/badge/cloud-GCP-blue"></img>
   <img src="https://img.shields.io/badge/tool-Git-blue"></img>
   <img src="https://img.shields.io/badge/CI_CD-GitHub_Pipelines-blue"></img>
+  <img src="https://img.shields.io/badge/CI_CD-Jenkins-blue"></img>
   <img src="https://img.shields.io/badge/tool-JetBrains_IDEs-blue"></img>
+  <img src="https://img.shields.io/badge/tool-Grafana-blue"></img>
+  <img src="https://img.shields.io/badge/tool-ELK-blue"></img>
+  <img src="https://img.shields.io/badge/tool-Sentry-blue"></img>
+  <img src="https://img.shields.io/badge/tool-BugSnag-blue"></img>
 </p>
 
 #### Other Technologies
