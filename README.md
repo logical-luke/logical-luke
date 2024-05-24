@@ -76,6 +76,7 @@ function sharePhilosophy() {
   <img src="https://img.shields.io/badge/tool-ELK-blue"></img>
   <img src="https://img.shields.io/badge/tool-Sentry-blue"></img>
   <img src="https://img.shields.io/badge/tool-BugSnag-blue"></img>
+  <img src="https://img.shields.io/badge/tool-Cypress-blue"></img>
 </p>
 
 #### Other Technologies
