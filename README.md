@@ -38,6 +38,17 @@ const luke = {
 console.log(luke.mission()); // Output: Craft software that makes a difference
 ```
 
+### 🎮 Coder's Life
+
+```
+┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐                                  
+│Monday   ││Tuesday  ││Wednesday││Thursday ││Friday   ││Saturday ││Sunday   │
+│─────────││─────────││─────────││─────────││─────────││─────────││─────────│
+│ Code    ││ Debug   ││ Meeting ││ Code    ││ Deploy  ││ Learn   ││ Relax   │
+│ ☕☕☕☕☕   ││ ☕☕☕☕    ││ ☕☕☕     ││ ☕☕☕☕    ││ ☕☕☕☕☕   ││ ☕☕      ││ ☕       │
+└─────────┘└─────────┘└─────────┘└─────────┘└─────────┘└─────────┘└─────────┘
+```
+
 ### 🛠️ Tech Toolbox
 
 <details>
@@ -67,6 +78,25 @@ console.log(luke.mission()); // Output: Craft software that makes a difference
 ### 🌱 Current Quests
 
 - Unlocking advanced Vue.js techniques
+- Exploring the realms of AI and Machine Learning
+- Perfecting the art of scalable microservices
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=logical-luke&show_icons=true&theme=tokyonight" alt="logical-luke's GitHub stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=logical-luke&theme=tokyonight" alt="logical-luke's GitHub streak" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=logical-luke&layout=compact&theme=tokyonight" alt="Top Langs" width="58%" />
+</p>
+
+### 🏆 Achievements
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=logical-luke&theme=nord&column=7&no-frame=true" alt="logical-luke's trophies"/>
+</p>
 
 ### 🤝 Let's Join Forces!
 
@@ -79,3 +109,7 @@ Whether you're looking to collaborate on a project, need some tech advice, or ju
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=logical-luke&color=2E9EFF&style=flat-square" alt="Profile views">
 </p>
+
+### 🐍 Contribution Graph
+
+![Snake animation](https://github.com/logical-luke/logical-luke/blob/output/github-contribution-grid-snake.svg)
