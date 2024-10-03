@@ -1,97 +1,81 @@
-<h1 align="center">👋 Hello, I'm Luke Ziaja</h1>
-
-<p align="center">
-I'm a full-stack developer with deep expertise in back-end systems and a passion for front-end development. 
-</p>
-<p align="center">
-My work involves building robust applications with NodeJs, PHP, and Python. 
-</p>
-<p align="center">
-I operate <a href="https://makeitlogical.io">Make IT Logical</a>, where I focus on delivering intuitive applications that solves problems.
-</p>
-
-<p align="center">
-My approach to software development is guided by a commitment to being radically open-minded and transparent. This philosophy, combined with a flexible mindset, helps me adapt to the ever-evolving tech landscape while creating meaningful and efficient solutions.
-</p>
-
 <div align="center">
-
-[![Linkedin Badge](https://img.shields.io/badge/-Luke_Ziaja-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/logical-luke/)](https://www.linkedin.com/in/logical-luke/)
-[![GitHub followers](https://img.shields.io/github/followers/logical-luke.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/logical-luke?tab=followers)
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EFF&center=true&vCenter=true&width=435&lines=Hello%2C+I'm+Luke+Ziaja;Full-stack+Developer;Problem+Solver;Tech+Enthusiast" alt="Typing SVG" />
 </div>
-<br>
 
-<h3>👨‍💻 My Development Ethos</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/logical-luke/"><img src="https://img.shields.io/badge/-Luke_Ziaja-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
+  <a href="https://github.com/logical-luke"><img src="https://img.shields.io/github/followers/logical-luke.svg?style=for-the-badge&logo=github&labelColor=0D1117&color=2E9EFF"/></a>
+  <a href="https://makeitlogical.io"><img src="https://img.shields.io/badge/Make_IT_Logical-2E9EFF?style=for-the-badge&logo=safari&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/NodeJs-339933?style=flat-square&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+</p>
+
+---
+
+### 💡 About Me
+
+I'm a full-stack developer with a knack for back-end systems and a growing passion for front-end magic. 
+At [Make IT Logical](https://makeitlogical.io), I focus on crafting intuitive applications that solve real-world problems.
+
+My development philosophy? Be radically open-minded, transparent, and adaptable. 
+It's not just about writing code; it's about creating solutions that simplify, delight, and serve.
 
 ```javascript
-const developer = {
-  name: "Luke Ziaja",
+const luke = {
   role: "Full-Stack Developer",
   company: "Make IT Logical",
-  stacks: ["PHP", "Python", "NodeJs", "Java", "Vue.js", "TypeScript", "Symfony"],
-  motto: "Create, share, and thrive together in the world of technology."
+  motto: "Create, share, and thrive together in tech.",
+  mindset: ["Open-minded", "Transparent", "Adaptable"],
+  mission: () => "Craft software that makes a difference"
 };
 
-function sharePhilosophy() {
-  console.log(`${developer.name} believes in creating software that simplifies, delights, and serves.`);
-}
+console.log(luke.mission()); // Output: Craft software that makes a difference
 ```
 
-### Technologies I mostly work with (but I'm always open for learning something new)
+### 🛠️ Tech Toolbox
 
-#### Programming Languages
-<p> 
-  <img src="https://img.shields.io/badge/code-PHP-blue"></img>
-  <img src="https://img.shields.io/badge/code-JavaScript-blue"></img>
-  <img src="https://img.shields.io/badge/code-Python-blue"></img>
-  <img src="https://img.shields.io/badge/code-Java-blue"></img>
+<details>
+<summary>Click to unveil the magic ✨</summary>
+
+#### 💻 Languages & Frameworks
+- PHP (Symfony)
+- JavaScript/TypeScript (Vue.js, Express.js)
+- Python
+- Java
+
+#### 🗄️ Data Sorcery
+- SQL, ElasticSearch, MongoDB, Redis
+
+#### 🚀 DevOps & Wizardry Tools
+- Docker, AWS, GCP
+- Git, GitHub Pipelines, Jenkins
+- JetBrains IDEs, Grafana, ELK Stack
+- Sentry, BugSnag, Cypress
+
+#### 🌐 Other Enchantments
+- Linux, Nginx
+- Kafka, RabbitMQ
+- REST, Design Patterns
+</details>
+
+### 🌱 Current Quests
+
+- Unlocking advanced Vue.js techniques
+
+### 🤝 Let's Join Forces!
+
+Whether you're looking to collaborate on a project, need some tech advice, or just want to geek out about the latest in development, I'm all ears! Let's connect and create something awesome together.
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=logical-luke&theme=tokyonight" alt="logical-luke's GitHub streak"/>
+</div>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=logical-luke&color=2E9EFF&style=flat-square" alt="Profile views">
 </p>
-
-#### Frameworks & Libraries
-<p>
-  <img src="https://img.shields.io/badge/framework-Symfony-blue"></img>
-  <img src="https://img.shields.io/badge/framework-Vue.js-blue"></img>
-  <img src="https://img.shields.io/badge/framework-Express.js-blue"></img>
-  <img src="https://img.shields.io/badge/style-TailwindCSS-blue"></img>
-</p>
-
-#### Databases
-<p>
-  <img src="https://img.shields.io/badge/database-SQL-blue"></img>
-  <img src="https://img.shields.io/badge/database-ElasticSearch-blue"></img>
-  <img src="https://img.shields.io/badge/database-MongoDB-blue"></img>
-  <img src="https://img.shields.io/badge/database-Redis-blue"></img>
-</p>
-
-#### DevOps & Development Tools
-<p>
-  <img src="https://img.shields.io/badge/tool-Docker-blue"></img>
-  <img src="https://img.shields.io/badge/cloud-AWS-blue"></img>
-  <img src="https://img.shields.io/badge/cloud-GCP-blue"></img>
-  <img src="https://img.shields.io/badge/tool-Git-blue"></img>
-  <img src="https://img.shields.io/badge/CI_CD-GitHub_Pipelines-blue"></img>
-  <img src="https://img.shields.io/badge/CI_CD-Jenkins-blue"></img>
-  <img src="https://img.shields.io/badge/tool-JetBrains_IDEs-blue"></img>
-  <img src="https://img.shields.io/badge/tool-Grafana-blue"></img>
-  <img src="https://img.shields.io/badge/tool-ELK-blue"></img>
-  <img src="https://img.shields.io/badge/tool-Sentry-blue"></img>
-  <img src="https://img.shields.io/badge/tool-BugSnag-blue"></img>
-  <img src="https://img.shields.io/badge/tool-Cypress-blue"></img>
-</p>
-
-#### Other Technologies
-<p>
-  <img src="https://img.shields.io/badge/os-Linux-blue"></img>
-  <img src="https://img.shields.io/badge/webserver-nginx-blue"></img>
-  <img src="https://img.shields.io/badge/messaging-Kafka-blue"></img>
-  <img src="https://img.shields.io/badge/messaging-RabbitMQ-blue"></img>
-  <img src="https://img.shields.io/badge/design_patterns-REST-blue"></img>
-  <img src="https://img.shields.io/badge/practice-Design_Patterns-blue"></img>
-</p>
-
-### Currently Learning 🌱
-- **Java Frameworks** for expanding my backend mastery!
-- **Advanced Vue.js Techniques** to further enhance my front-end development skills.
-
-### Let's Connect and Grow Together!
-If you're seeking a collaborator, need advice, or simply want to chat about tech and innovative solutions, feel free to reach out. Embracing collaboration has always been at the heart of my professional journey.
