@@ -41,11 +41,11 @@ console.log(luke.mission()); // Output: Craft software that makes a difference
 ### 🎮 Coder's Life
 
 ```
-┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐                                  
+┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐
 │Monday   ││Tuesday  ││Wednesday││Thursday ││Friday   ││Saturday ││Sunday   │
 │─────────││─────────││─────────││─────────││─────────││─────────││─────────│
 │ Code    ││ Debug   ││ Meeting ││ Code    ││ Deploy  ││ Learn   ││ Relax   │
-│ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ │
+│ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈]  ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ │
 └─────────┘└─────────┘└─────────┘└─────────┘└─────────┘└─────────┘└─────────┘
 ```
 
@@ -84,7 +84,6 @@ console.log(luke.mission()); // Output: Craft software that makes a difference
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=logical-luke&show_icons=true&theme=tokyonight" alt="logical-luke's GitHub stats" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=logical-luke&theme=tokyonight" alt="logical-luke's GitHub streak" width="48%" />
 </p>
 
@@ -95,21 +94,13 @@ console.log(luke.mission()); // Output: Craft software that makes a difference
 ### 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=logical-luke&theme=nord&column=7&no-frame=true" alt="logical-luke's trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=logical-luke&theme=nord&column=4&no-frame=true" alt="logical-luke's trophies"/>
 </p>
 
 ### 🤝 Let's Join Forces!
 
 Whether you're looking to collaborate on a project, need some tech advice, or just want to geek out about the latest in development, I'm all ears! Let's connect and create something awesome together.
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=logical-luke&theme=tokyonight" alt="logical-luke's GitHub streak"/>
-</div>
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=logical-luke&color=2E9EFF&style=flat-square" alt="Profile views">
 </p>
-
-### 🐍 Contribution Graph
-
-![Snake animation](https://github.com/logical-luke/logical-luke/blob/output/github-contribution-grid-snake.svg)
