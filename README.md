@@ -21,6 +21,7 @@
 ### 💡 About Me
 
 I'm a full-stack developer with a knack for back-end systems and a growing passion for front-end magic. 
+
 At [Make IT Logical](https://makeitlogical.io), I focus on crafting intuitive applications that solve real-world problems.
 
 My development philosophy? Be radically open-minded, transparent, and adaptable. 
@@ -36,17 +37,6 @@ const luke = {
 };
 
 console.log(luke.mission()); // Output: Craft software that makes a difference
-```
-
-### 🎮 Coder's Life
-
-```
-┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐┌─────────┐
-│Monday   ││Tuesday  ││Wednesday││Thursday ││Friday   ││Saturday ││Sunday   │
-│─────────││─────────││─────────││─────────││─────────││─────────││─────────│
-│ Code    ││ Debug   ││ Meeting ││ Code    ││ Deploy  ││ Learn   ││ Relax   │
-│ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈]  ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ ││ ⅽ[ː̠̈ː̠̈ː̠̈] ͌ │
-└─────────┘└─────────┘└─────────┘└─────────┘└─────────┘└─────────┘└─────────┘
 ```
 
 ### 🛠️ Tech Toolbox
@@ -84,22 +74,15 @@ console.log(luke.mission()); // Output: Craft software that makes a difference
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=logical-luke&theme=tokyonight" alt="logical-luke's GitHub streak" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=logical-luke&theme=tokyonight&exclude_days=Sun%2CSat" alt="logical-luke's GitHub streak" width="48%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=logical-luke&layout=compact&theme=tokyonight" alt="Top Langs" width="58%" />
-</p>
-
-### 🏆 Achievements
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=logical-luke&theme=nord&column=4&no-frame=true" alt="logical-luke's trophies"/>
-</p>
 
 ### 🤝 Let's Join Forces!
 
-Whether you're looking to collaborate on a project, need some tech advice, or just want to geek out about the latest in development, I'm all ears! Let's connect and create something awesome together.
+Whether you're looking to collaborate on a project, need some tech advice, or just want to geek out about the latest in development, I'm all ears! 
+
+Let's connect and create something awesome together.
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=logical-luke&color=2E9EFF&style=flat-square" alt="Profile views">
