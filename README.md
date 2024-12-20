@@ -71,13 +71,6 @@ console.log(luke.mission()); // Output: Craft software that makes a difference
 - Exploring the realms of AI and Machine Learning
 - Perfecting the art of scalable microservices
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=logical-luke&theme=tokyonight&exclude_days=Sun%2CSat" alt="logical-luke's GitHub streak" width="48%" />
-</p>
-
-
 ### 🤝 Let's Join Forces!
 
 Whether you're looking to collaborate on a project, need some tech advice, or just want to geek out about the latest in development, I'm all ears! 
