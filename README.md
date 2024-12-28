@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/logical-luke/"><img src="https://img.shields.io/badge/-Luke_Ziaja-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
   <a href="https://github.com/logical-luke"><img src="https://img.shields.io/github/followers/logical-luke.svg?style=for-the-badge&logo=github&labelColor=0D1117&color=2E9EFF"/></a>
-  <a href="https://makeitlogical.io"><img src="https://img.shields.io/badge/Make_IT_Logical-2E9EFF?style=for-the-badge&logo=safari&logoColor=white"/></a>
+  <a href="https://makeitlogical.io"><img src="https://img.shields.io/badge/AppByLuke-2E9EFF?style=for-the-badge&logo=safari&logoColor=white"/></a>
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 
 I'm a full-stack developer with a knack for back-end systems and a growing passion for front-end magic. 
 
-At [Make IT Logical](https://makeitlogical.io), I focus on crafting intuitive applications that solve real-world problems.
+At [AppsByLuke](https://makeitlogical.io), I focus on crafting intuitive applications that solve real-world problems.
 
 My development philosophy? Be radically open-minded, transparent, and adaptable. 
 It's not just about writing code; it's about creating solutions that simplify, delight, and serve.
