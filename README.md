@@ -30,7 +30,7 @@ It's not just about writing code; it's about creating solutions that simplify, d
 ```javascript
 const luke = {
   role: "Full-Stack Developer",
-  company: "Make IT Logical",
+  company: "AppsByLuke",
   motto: "Create, share, and thrive together in tech.",
   mindset: ["Open-minded", "Transparent", "Adaptable"],
   mission: () => "Craft software that makes a difference"
@@ -46,8 +46,7 @@ console.log(luke.mission()); // Output: Craft software that makes a difference
 
 #### 💻 Languages & Frameworks
 - PHP (Symfony)
-- JavaScript/TypeScript (Vue.js, Express.js)
-- Python
+- JavaScript/TypeScript (Vue.js, Express.js, Fastify, NestJs)
 - Java
 
 #### 🗄️ Data Sorcery
