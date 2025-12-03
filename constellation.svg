@@ -1,22 +1,30 @@
 <svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .star {
-      animation: twinkle var(--duration) ease-in-out var(--delay) infinite;
-    }
-    .glow {
-      animation: pulse 4s ease-in-out var(--delay) infinite;
-    }
-    @keyframes twinkle {
-      0%, 100% { opacity: var(--base-opacity); }
-      50% { opacity: calc(var(--base-opacity) * 0.4); }
-    }
-    @keyframes pulse {
-      0%, 100% { opacity: 0.08; transform-origin: center; }
-      50% { opacity: 0.15; }
-    }
-  </style>
-
   <rect width="800" height="200" fill="transparent"/>
+
+  <!-- Subtle glows -->
+  <g>
+    <circle cx="104.3" cy="118.7" r="18.7" fill="#58a6ff" opacity="0.06">
+      <animate attributeName="opacity" values="0.06;0.14;0.06" dur="9.1s" begin="3.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="290.2" cy="95.8" r="16.2" fill="#58a6ff" opacity="0.06">
+      <animate attributeName="opacity" values="0.06;0.14;0.06" dur="8.9s" begin="3.0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="377.2" cy="125.3" r="17.0" fill="#58a6ff" opacity="0.06">
+      <animate attributeName="opacity" values="0.06;0.14;0.06" dur="9.8s" begin="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="427.0" cy="53.4" r="16.1" fill="#58a6ff" opacity="0.06">
+      <animate attributeName="opacity" values="0.06;0.14;0.06" dur="8.2s" begin="1.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="482.0" cy="109.7" r="19.4" fill="#58a6ff" opacity="0.06">
+      <animate attributeName="opacity" values="0.06;0.14;0.06" dur="6.8s" begin="1.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="691.2" cy="89.1" r="19.9" fill="#58a6ff" opacity="0.06">
+      <animate attributeName="opacity" values="0.06;0.14;0.06" dur="6.1s" begin="2.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="758.6" cy="68.5" r="16.8" fill="#58a6ff" opacity="0.06">
+      <animate attributeName="opacity" values="0.06;0.14;0.06" dur="9.6s" begin="2.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </circle>
+  </g>
 
   <!-- Constellation lines -->
   <g stroke="#58a6ff" stroke-width="0.5" opacity="0.3">

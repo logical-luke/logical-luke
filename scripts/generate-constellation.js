@@ -132,41 +132,38 @@ function generateSVG(constellation, random) {
     return `    <line x1="${p1.x.toFixed(1)}" y1="${p1.y.toFixed(1)}" x2="${p2.x.toFixed(1)}" y2="${p2.y.toFixed(1)}"/>`;
   }).join('\n');
 
-  // Generate points with animation classes
+  // Generate points with SMIL animations for twinkling
   const circles = points.map((p, i) => {
-    const animDelay = (random() * 4).toFixed(1);
-    const animDuration = (3 + random() * 4).toFixed(1);
-    return `    <circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${p.size.toFixed(1)}" class="star" style="--delay: ${animDelay}s; --duration: ${animDuration}s; --base-opacity: ${p.opacity.toFixed(2)}"/>`;
+    const dur = (5 + random() * 6).toFixed(1);
+    const begin = (random() * 5).toFixed(1);
+    const minOpacity = (p.opacity * 0.35).toFixed(2);
+    const maxOpacity = p.opacity.toFixed(2);
+
+    return `    <circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${p.size.toFixed(1)}" fill="#58a6ff" opacity="${maxOpacity}">
+      <animate attributeName="opacity" values="${maxOpacity};${minOpacity};${maxOpacity}" dur="${dur}s" begin="${begin}s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </circle>`;
   }).join('\n');
 
-  // Generate subtle glows for larger points
+  // Generate subtle glows for larger points with pulse animation
   const glows = points
     .filter(p => p.size > 3.5)
     .map((p, i) => {
-      const animDelay = (random() * 3).toFixed(1);
-      return `    <circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${(p.size * 4).toFixed(1)}" class="glow" style="--delay: ${animDelay}s"/>`;
+      const dur = (6 + random() * 4).toFixed(1);
+      const begin = (random() * 4).toFixed(1);
+
+      return `    <circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${(p.size * 4).toFixed(1)}" fill="#58a6ff" opacity="0.06">
+      <animate attributeName="opacity" values="0.06;0.14;0.06" dur="${dur}s" begin="${begin}s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </circle>`;
     })
     .join('\n');
 
   return `<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .star {
-      animation: twinkle var(--duration) ease-in-out var(--delay) infinite;
-    }
-    .glow {
-      animation: pulse 4s ease-in-out var(--delay) infinite;
-    }
-    @keyframes twinkle {
-      0%, 100% { opacity: var(--base-opacity); }
-      50% { opacity: calc(var(--base-opacity) * 0.4); }
-    }
-    @keyframes pulse {
-      0%, 100% { opacity: 0.08; transform-origin: center; }
-      50% { opacity: 0.15; }
-    }
-  </style>
-
   <rect width="800" height="200" fill="transparent"/>
+
+  <!-- Subtle glows -->
+  <g>
+${glows}
+  </g>
 
   <!-- Constellation lines -->
   <g stroke="#58a6ff" stroke-width="0.5" opacity="0.3">
@@ -174,13 +171,8 @@ ${lines}
   </g>
 
   <!-- Constellation points -->
-  <g fill="#58a6ff">
+  <g>
 ${circles}
-  </g>
-
-  <!-- Subtle glows -->
-  <g fill="#58a6ff">
-${glows}
   </g>
 </svg>`;
 }
