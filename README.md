@@ -5,7 +5,7 @@
 
 <br><br>
 
-Building software products.
+Building software
 
 <br>
 
