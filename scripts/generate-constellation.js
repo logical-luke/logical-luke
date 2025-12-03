@@ -72,20 +72,10 @@ function seededRandom(seed) {
 }
 
 // Generate constellation points based on contributions or date seed
-function generateConstellation(contributions) {
+function generateConstellation(contributions, random) {
   const width = 800;
   const height = 200;
   const padding = 60;
-
-  // Create seed from today's date + contribution data
-  const today = new Date();
-  let seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
-
-  if (contributions) {
-    seed += contributions.reduce((sum, day) => sum + day.contributionCount, 0);
-  }
-
-  const random = seededRandom(seed);
 
   // Generate 8-12 main points
   const numPoints = Math.floor(random() * 5) + 8;
@@ -132,7 +122,7 @@ function generateConstellation(contributions) {
   return { points, connections };
 }
 
-function generateSVG(constellation) {
+function generateSVG(constellation, random) {
   const { points, connections } = constellation;
 
   // Generate connection lines
@@ -142,18 +132,40 @@ function generateSVG(constellation) {
     return `    <line x1="${p1.x.toFixed(1)}" y1="${p1.y.toFixed(1)}" x2="${p2.x.toFixed(1)}" y2="${p2.y.toFixed(1)}"/>`;
   }).join('\n');
 
-  // Generate points
-  const circles = points.map(p =>
-    `    <circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${p.size.toFixed(1)}" opacity="${p.opacity.toFixed(2)}"/>`
-  ).join('\n');
+  // Generate points with animation classes
+  const circles = points.map((p, i) => {
+    const animDelay = (random() * 4).toFixed(1);
+    const animDuration = (3 + random() * 4).toFixed(1);
+    return `    <circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${p.size.toFixed(1)}" class="star" style="--delay: ${animDelay}s; --duration: ${animDuration}s; --base-opacity: ${p.opacity.toFixed(2)}"/>`;
+  }).join('\n');
 
   // Generate subtle glows for larger points
   const glows = points
     .filter(p => p.size > 3.5)
-    .map(p => `    <circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${(p.size * 4).toFixed(1)}"/>`)
+    .map((p, i) => {
+      const animDelay = (random() * 3).toFixed(1);
+      return `    <circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${(p.size * 4).toFixed(1)}" class="glow" style="--delay: ${animDelay}s"/>`;
+    })
     .join('\n');
 
   return `<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .star {
+      animation: twinkle var(--duration) ease-in-out var(--delay) infinite;
+    }
+    .glow {
+      animation: pulse 4s ease-in-out var(--delay) infinite;
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: var(--base-opacity); }
+      50% { opacity: calc(var(--base-opacity) * 0.4); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.08; transform-origin: center; }
+      50% { opacity: 0.15; }
+    }
+  </style>
+
   <rect width="800" height="200" fill="transparent"/>
 
   <!-- Constellation lines -->
@@ -167,7 +179,7 @@ ${circles}
   </g>
 
   <!-- Subtle glows -->
-  <g fill="#58a6ff" opacity="0.08">
+  <g fill="#58a6ff">
 ${glows}
   </g>
 </svg>`;
@@ -183,12 +195,22 @@ async function main() {
     console.log('Using date-based seed (no contribution data)');
   }
 
+  // Create seed from today's date + contribution data
+  const today = new Date();
+  let seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+
+  if (contributions) {
+    seed += contributions.reduce((sum, day) => sum + day.contributionCount, 0);
+  }
+
+  const random = seededRandom(seed);
+
   console.log('Generating constellation...');
-  const constellation = generateConstellation(contributions);
+  const constellation = generateConstellation(contributions, random);
 
   console.log(`Created ${constellation.points.length} points with ${constellation.connections.length} connections`);
 
-  const svg = generateSVG(constellation);
+  const svg = generateSVG(constellation, random);
   fs.writeFileSync(OUTPUT_PATH, svg);
 
   console.log(`Saved to ${OUTPUT_PATH}`);

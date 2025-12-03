@@ -1,50 +1,69 @@
 <svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .star {
+      animation: twinkle var(--duration) ease-in-out var(--delay) infinite;
+    }
+    .glow {
+      animation: pulse 4s ease-in-out var(--delay) infinite;
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: var(--base-opacity); }
+      50% { opacity: calc(var(--base-opacity) * 0.4); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.08; transform-origin: center; }
+      50% { opacity: 0.15; }
+    }
+  </style>
+
   <rect width="800" height="200" fill="transparent"/>
 
   <!-- Constellation lines -->
   <g stroke="#58a6ff" stroke-width="0.5" opacity="0.3">
-    <line x1="57.0" y1="105.3" x2="102.6" y2="105.7"/>
-    <line x1="57.0" y1="105.3" x2="189.9" y2="149.4"/>
-    <line x1="102.6" y1="105.7" x2="189.9" y2="149.4"/>
-    <line x1="102.6" y1="105.7" x2="246.5" y2="123.8"/>
-    <line x1="189.9" y1="149.4" x2="246.5" y2="123.8"/>
-    <line x1="246.5" y1="123.8" x2="311.5" y2="134.3"/>
-    <line x1="311.5" y1="134.3" x2="379.0" y2="53.0"/>
-    <line x1="379.0" y1="53.0" x2="438.1" y2="70.6"/>
-    <line x1="379.0" y1="53.0" x2="504.4" y2="89.1"/>
-    <line x1="438.1" y1="70.6" x2="504.4" y2="89.1"/>
-    <line x1="504.4" y1="89.1" x2="550.9" y2="62.8"/>
-    <line x1="550.9" y1="62.8" x2="632.8" y2="111.8"/>
-    <line x1="632.8" y1="111.8" x2="671.1" y2="140.2"/>
-    <line x1="671.1" y1="140.2" x2="742.5" y2="110.2"/>
-    <line x1="189.9" y1="149.4" x2="379.0" y2="53.0"/>
-    <line x1="102.6" y1="105.7" x2="246.5" y2="123.8"/>
+    <line x1="73.2" y1="117.4" x2="104.3" y2="118.7"/>
+    <line x1="104.3" y1="118.7" x2="195.7" y2="128.1"/>
+    <line x1="104.3" y1="118.7" x2="238.5" y2="103.1"/>
+    <line x1="195.7" y1="128.1" x2="238.5" y2="103.1"/>
+    <line x1="238.5" y1="103.1" x2="290.2" y2="95.8"/>
+    <line x1="238.5" y1="103.1" x2="377.2" y2="125.3"/>
+    <line x1="290.2" y1="95.8" x2="377.2" y2="125.3"/>
+    <line x1="377.2" y1="125.3" x2="427.0" y2="53.4"/>
+    <line x1="377.2" y1="125.3" x2="482.0" y2="109.7"/>
+    <line x1="427.0" y1="53.4" x2="482.0" y2="109.7"/>
+    <line x1="427.0" y1="53.4" x2="554.9" y2="55.1"/>
+    <line x1="482.0" y1="109.7" x2="554.9" y2="55.1"/>
+    <line x1="554.9" y1="55.1" x2="605.5" y2="115.0"/>
+    <line x1="554.9" y1="55.1" x2="691.2" y2="89.1"/>
+    <line x1="605.5" y1="115.0" x2="691.2" y2="89.1"/>
+    <line x1="691.2" y1="89.1" x2="758.6" y2="68.5"/>
+    <line x1="554.9" y1="55.1" x2="691.2" y2="89.1"/>
+    <line x1="482.0" y1="109.7" x2="605.5" y2="115.0"/>
   </g>
 
   <!-- Constellation points -->
   <g fill="#58a6ff">
-    <circle cx="57.0" cy="105.3" r="3.8" opacity="0.84"/>
-    <circle cx="102.6" cy="105.7" r="3.3" opacity="0.55"/>
-    <circle cx="189.9" cy="149.4" r="6.2" opacity="0.58"/>
-    <circle cx="246.5" cy="123.8" r="6.5" opacity="0.55"/>
-    <circle cx="311.5" cy="134.3" r="2.4" opacity="0.66"/>
-    <circle cx="379.0" cy="53.0" r="2.9" opacity="0.86"/>
-    <circle cx="438.1" cy="70.6" r="4.5" opacity="0.55"/>
-    <circle cx="504.4" cy="89.1" r="4.0" opacity="0.70"/>
-    <circle cx="550.9" cy="62.8" r="3.3" opacity="0.80"/>
-    <circle cx="632.8" cy="111.8" r="2.8" opacity="0.81"/>
-    <circle cx="671.1" cy="140.2" r="5.0" opacity="0.75"/>
-    <circle cx="742.5" cy="110.2" r="3.8" opacity="0.59"/>
+    <circle cx="73.2" cy="117.4" r="3.4" class="star" style="--delay: 0.6s; --duration: 5.0s; --base-opacity: 0.67"/>
+    <circle cx="104.3" cy="118.7" r="4.7" class="star" style="--delay: 2.0s; --duration: 6.8s; --base-opacity: 0.68"/>
+    <circle cx="195.7" cy="128.1" r="3.2" class="star" style="--delay: 2.9s; --duration: 5.1s; --base-opacity: 0.63"/>
+    <circle cx="238.5" cy="103.1" r="2.8" class="star" style="--delay: 2.0s; --duration: 6.1s; --base-opacity: 0.66"/>
+    <circle cx="290.2" cy="95.8" r="4.0" class="star" style="--delay: 3.5s; --duration: 4.8s; --base-opacity: 0.62"/>
+    <circle cx="377.2" cy="125.3" r="4.3" class="star" style="--delay: 1.1s; --duration: 6.9s; --base-opacity: 0.76"/>
+    <circle cx="427.0" cy="53.4" r="4.0" class="star" style="--delay: 1.6s; --duration: 4.0s; --base-opacity: 0.85"/>
+    <circle cx="482.0" cy="109.7" r="4.8" class="star" style="--delay: 1.7s; --duration: 5.1s; --base-opacity: 0.68"/>
+    <circle cx="554.9" cy="55.1" r="3.2" class="star" style="--delay: 0.3s; --duration: 6.4s; --base-opacity: 0.62"/>
+    <circle cx="605.5" cy="115.0" r="2.1" class="star" style="--delay: 2.4s; --duration: 4.5s; --base-opacity: 0.80"/>
+    <circle cx="691.2" cy="89.1" r="5.0" class="star" style="--delay: 3.9s; --duration: 5.4s; --base-opacity: 0.59"/>
+    <circle cx="758.6" cy="68.5" r="4.2" class="star" style="--delay: 3.0s; --duration: 4.0s; --base-opacity: 0.74"/>
   </g>
 
   <!-- Subtle glows -->
-  <g fill="#58a6ff" opacity="0.08">
-    <circle cx="57.0" cy="105.3" r="15.3"/>
-    <circle cx="189.9" cy="149.4" r="24.9"/>
-    <circle cx="246.5" cy="123.8" r="26.0"/>
-    <circle cx="438.1" cy="70.6" r="17.8"/>
-    <circle cx="504.4" cy="89.1" r="15.9"/>
-    <circle cx="671.1" cy="140.2" r="20.0"/>
-    <circle cx="742.5" cy="110.2" r="15.4"/>
+  <g fill="#58a6ff">
+    <circle cx="104.3" cy="118.7" r="18.7" class="glow" style="--delay: 2.3s"/>
+    <circle cx="290.2" cy="95.8" r="16.2" class="glow" style="--delay: 2.3s"/>
+    <circle cx="377.2" cy="125.3" r="17.0" class="glow" style="--delay: 2.2s"/>
+    <circle cx="427.0" cy="53.4" r="16.1" class="glow" style="--delay: 2.2s"/>
+    <circle cx="482.0" cy="109.7" r="19.4" class="glow" style="--delay: 2.9s"/>
+    <circle cx="691.2" cy="89.1" r="19.9" class="glow" style="--delay: 2.5s"/>
+    <circle cx="758.6" cy="68.5" r="16.8" class="glow" style="--delay: 1.7s"/>
   </g>
 </svg>
