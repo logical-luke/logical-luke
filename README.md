@@ -1,7 +1,9 @@
 <div align="center">
-<br><br>
+<br>
 
-# Luke Ziaja
+<img src="constellation.svg" alt="constellation" width="600"/>
+
+<br><br>
 
 Building software products.
 
