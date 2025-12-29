@@ -18,138 +18,115 @@
     <!-- Glows layer -->
     <g>
       <!-- Glow for point 0 -->
-      <circle cx="59.6" cy="92.0" r="17.7" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="6.9s" begin="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="55.9" cy="92.3" r="25.1" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="7.6s" begin="2.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="59.6" cy="92.0" r="8.9" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="6.9s" begin="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="55.9" cy="92.3" r="12.6" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="7.6s" begin="2.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
       <!-- Glow for point 1 -->
-      <circle cx="133.1" cy="107.6" r="28.1" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="6.2s" begin="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="160.6" cy="66.8" r="21.2" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="9.5s" begin="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="133.1" cy="107.6" r="14.0" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="6.2s" begin="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="160.6" cy="66.8" r="10.6" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="9.5s" begin="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
       <!-- Glow for point 2 -->
-      <circle cx="180.6" cy="110.0" r="27.9" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="6.5s" begin="3.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="223.3" cy="137.9" r="43.8" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="8.5s" begin="2.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="180.6" cy="110.0" r="14.0" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="6.5s" begin="3.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="223.3" cy="137.9" r="21.9" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="8.5s" begin="2.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
       <!-- Glow for point 3 -->
-      <circle cx="260.3" cy="110.8" r="35.5" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="8.6s" begin="1.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="327.1" cy="137.8" r="36.4" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="9.6s" begin="4.0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="260.3" cy="110.8" r="17.8" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="8.6s" begin="1.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="327.1" cy="137.8" r="18.2" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="9.6s" begin="4.0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
       <!-- Glow for point 4 -->
-      <circle cx="320.0" cy="111.8" r="40.3" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="7.2s" begin="1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="408.7" cy="77.6" r="47.1" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="9.4s" begin="1.0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="320.0" cy="111.8" r="20.2" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="7.2s" begin="1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="408.7" cy="77.6" r="23.6" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="9.4s" begin="1.0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
       <!-- Glow for point 5 -->
-      <circle cx="405.4" cy="95.6" r="39.6" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="7.1s" begin="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="470.6" cy="95.1" r="46.0" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="8.5s" begin="0.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="405.4" cy="95.6" r="19.8" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="7.1s" begin="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="470.6" cy="95.1" r="23.0" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="8.5s" begin="0.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
       <!-- Glow for point 6 -->
-      <circle cx="453.1" cy="101.0" r="44.5" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="9.9s" begin="0.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="565.1" cy="109.2" r="40.9" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="9.9s" begin="2.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="453.1" cy="101.0" r="22.3" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="9.9s" begin="0.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="565.1" cy="109.2" r="20.4" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="9.9s" begin="2.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
       <!-- Glow for point 7 -->
-      <circle cx="520.4" cy="100.8" r="36.4" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="6.9s" begin="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="639.6" cy="108.7" r="43.9" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="9.4s" begin="2.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="520.4" cy="100.8" r="18.2" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="6.9s" begin="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="639.6" cy="108.7" r="21.9" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="9.4s" begin="2.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
       <!-- Glow for point 8 -->
-      <circle cx="596.2" cy="129.4" r="43.4" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="7.6s" begin="1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="727.5" cy="64.5" r="28.8" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="6.3s" begin="2.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="596.2" cy="129.4" r="21.7" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="7.6s" begin="1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
-      </circle>
-      <!-- Glow for point 9 -->
-      <circle cx="666.3" cy="83.8" r="32.2" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="9.5s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
-      </circle>
-      <circle cx="666.3" cy="83.8" r="16.1" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="9.5s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
-      </circle>
-      <!-- Glow for point 10 -->
-      <circle cx="740.0" cy="95.4" r="27.0" fill="#58a6ff" opacity="0.04" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.04;0.10;0.04" dur="7.6s" begin="0.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
-      </circle>
-      <circle cx="740.0" cy="95.4" r="13.5" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="7.6s" begin="0.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="727.5" cy="64.5" r="14.4" fill="#58a6ff" opacity="0.12" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.12;0.25;0.12" dur="6.3s" begin="2.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
     </g>
 
     <!-- Constellation lines -->
     <g stroke="#58a6ff" stroke-width="0.5" opacity="0.3">
-      <line x1="59.6" y1="92.0" x2="133.1" y2="107.6"/>
-      <line x1="59.6" y1="92.0" x2="180.6" y2="110.0"/>
-      <line x1="133.1" y1="107.6" x2="180.6" y2="110.0"/>
-      <line x1="133.1" y1="107.6" x2="260.3" y2="110.8"/>
-      <line x1="180.6" y1="110.0" x2="260.3" y2="110.8"/>
-      <line x1="260.3" y1="110.8" x2="320.0" y2="111.8"/>
-      <line x1="260.3" y1="110.8" x2="405.4" y2="95.6"/>
-      <line x1="320.0" y1="111.8" x2="405.4" y2="95.6"/>
-      <line x1="405.4" y1="95.6" x2="453.1" y2="101.0"/>
-      <line x1="453.1" y1="101.0" x2="520.4" y2="100.8"/>
-      <line x1="520.4" y1="100.8" x2="596.2" y2="129.4"/>
-      <line x1="596.2" y1="129.4" x2="666.3" y2="83.8"/>
-      <line x1="596.2" y1="129.4" x2="740.0" y2="95.4"/>
-      <line x1="666.3" y1="83.8" x2="740.0" y2="95.4"/>
-      <line x1="180.6" y1="110.0" x2="320.0" y2="111.8"/>
-      <line x1="520.4" y1="100.8" x2="740.0" y2="95.4"/>
+      <line x1="55.9" y1="92.3" x2="160.6" y2="66.8"/>
+      <line x1="55.9" y1="92.3" x2="223.3" y2="137.9"/>
+      <line x1="160.6" y1="66.8" x2="223.3" y2="137.9"/>
+      <line x1="223.3" y1="137.9" x2="327.1" y2="137.8"/>
+      <line x1="327.1" y1="137.8" x2="408.7" y2="77.6"/>
+      <line x1="408.7" y1="77.6" x2="470.6" y2="95.1"/>
+      <line x1="408.7" y1="77.6" x2="565.1" y2="109.2"/>
+      <line x1="470.6" y1="95.1" x2="565.1" y2="109.2"/>
+      <line x1="565.1" y1="109.2" x2="639.6" y2="108.7"/>
+      <line x1="565.1" y1="109.2" x2="727.5" y2="64.5"/>
+      <line x1="639.6" y1="108.7" x2="727.5" y2="64.5"/>
+      <line x1="55.9" y1="92.3" x2="223.3" y2="137.9"/>
+      <line x1="327.1" y1="137.8" x2="470.6" y2="95.1"/>
     </g>
 
     <!-- Constellation points -->
     <g>
-      <circle cx="59.6" cy="92.0" r="3.0" fill="#58a6ff" opacity="0.61">
-        <animate attributeName="opacity" values="0.61;0.21;0.61" dur="5.7s" begin="0.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="55.9" cy="92.3" r="4.2" fill="#58a6ff" opacity="0.82">
+        <animate attributeName="opacity" values="0.82;0.29;0.82" dur="5.4s" begin="1.0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="133.1" cy="107.6" r="4.7" fill="#58a6ff" opacity="0.62">
-        <animate attributeName="opacity" values="0.62;0.22;0.62" dur="8.2s" begin="3.7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="160.6" cy="66.8" r="3.5" fill="#58a6ff" opacity="0.68">
+        <animate attributeName="opacity" values="0.68;0.24;0.68" dur="7.2s" begin="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="180.6" cy="110.0" r="4.7" fill="#58a6ff" opacity="0.84">
-        <animate attributeName="opacity" values="0.84;0.29;0.84" dur="9.6s" begin="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="223.3" cy="137.9" r="7.3" fill="#58a6ff" opacity="0.69">
+        <animate attributeName="opacity" values="0.69;0.24;0.69" dur="6.1s" begin="0.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="260.3" cy="110.8" r="5.9" fill="#58a6ff" opacity="0.53">
-        <animate attributeName="opacity" values="0.53;0.18;0.53" dur="7.8s" begin="0.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="327.1" cy="137.8" r="6.1" fill="#58a6ff" opacity="0.87">
+        <animate attributeName="opacity" values="0.87;0.30;0.87" dur="5.9s" begin="2.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="320.0" cy="111.8" r="6.7" fill="#58a6ff" opacity="0.71">
-        <animate attributeName="opacity" values="0.71;0.25;0.71" dur="5.7s" begin="2.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="408.7" cy="77.6" r="7.9" fill="#58a6ff" opacity="0.84">
+        <animate attributeName="opacity" values="0.84;0.29;0.84" dur="10.4s" begin="1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="405.4" cy="95.6" r="6.6" fill="#58a6ff" opacity="0.56">
-        <animate attributeName="opacity" values="0.56;0.19;0.56" dur="10.0s" begin="0.7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="470.6" cy="95.1" r="7.7" fill="#58a6ff" opacity="0.65">
+        <animate attributeName="opacity" values="0.65;0.23;0.65" dur="10.8s" begin="3.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="453.1" cy="101.0" r="7.4" fill="#58a6ff" opacity="0.82">
-        <animate attributeName="opacity" values="0.82;0.29;0.82" dur="7.1s" begin="3.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="565.1" cy="109.2" r="6.8" fill="#58a6ff" opacity="0.54">
+        <animate attributeName="opacity" values="0.54;0.19;0.54" dur="6.1s" begin="3.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="520.4" cy="100.8" r="6.1" fill="#58a6ff" opacity="0.87">
-        <animate attributeName="opacity" values="0.87;0.31;0.87" dur="7.6s" begin="1.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="639.6" cy="108.7" r="7.3" fill="#58a6ff" opacity="0.85">
+        <animate attributeName="opacity" values="0.85;0.30;0.85" dur="11.0s" begin="4.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
-      <circle cx="596.2" cy="129.4" r="7.2" fill="#58a6ff" opacity="0.71">
-        <animate attributeName="opacity" values="0.71;0.25;0.71" dur="6.8s" begin="3.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
-      </circle>
-      <circle cx="666.3" cy="83.8" r="5.4" fill="#58a6ff" opacity="0.62">
-        <animate attributeName="opacity" values="0.62;0.22;0.62" dur="6.6s" begin="0.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
-      </circle>
-      <circle cx="740.0" cy="95.4" r="4.5" fill="#58a6ff" opacity="0.76">
-        <animate attributeName="opacity" values="0.76;0.27;0.76" dur="8.0s" begin="0.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <circle cx="727.5" cy="64.5" r="4.8" fill="#58a6ff" opacity="0.87">
+        <animate attributeName="opacity" values="0.87;0.30;0.87" dur="6.1s" begin="0.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
       </circle>
     </g>
   </g>
